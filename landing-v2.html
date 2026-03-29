@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkpol | La cabina de control para el registro de huéspedes</title>
+    <meta
+      name="description"
+      content="Segunda versión de la landing de Checkpol, enfocada en control operativo, claridad y velocidad para gestores de alojamientos turísticos."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles-v2.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="layout-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Checkpol">
+          <span class="brand-mark">CP</span>
+          <span class="brand-copy">
+            <strong>Checkpol</strong>
+            <span>registro de viajeros sin caos</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Principal">
+          <a href="#problema">Problema</a>
+          <a href="#sistema">Sistema</a>
+          <a href="#roles">Roles</a>
+          <a href="#cta">Demo</a>
+        </nav>
+
+        <a class="button button-secondary" href="./index.html">Ver versión 1</a>
+      </header>
+
+      <main id="top">
+        <section class="hero-panel">
+          <div class="hero-copy">
+            <p class="eyebrow">Segunda propuesta de landing</p>
+            <h1>
+              La forma de dejar de improvisar el registro policial en cada
+              check-in.
+            </h1>
+            <p class="hero-text">
+              Checkpol centraliza la recogida de datos del huésped, ordena cada
+              reserva y deja preparado el XML para el envío oficial. Menos
+              mensajes cruzados, menos copias manuales y más control operativo.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#cta">Quiero probar esta versión</a>
+              <a class="button button-ghost" href="#sistema">Ver cómo funciona</a>
+            </div>
+
+            <div class="hero-metrics" aria-label="Indicadores de propuesta">
+              <article>
+                <strong>1 flujo</strong>
+                <span>desde la reserva hasta el XML</span>
+              </article>
+              <article>
+                <strong>0 persecución</strong>
+                <span>para pedir datos por mensaje</span>
+              </article>
+              <article>
+                <strong>+ control</strong>
+                <span>cuando sube el volumen de reservas</span>
+              </article>
+            </div>
+          </div>
+
+          <aside class="hero-dashboard" aria-label="Vista previa de control">
+            <div class="dashboard-card">
+              <div class="dashboard-top">
+                <p>Panel de reservas</p>
+                <span>Hoy</span>
+              </div>
+
+              <div class="queue-list">
+                <article class="queue-item active">
+                  <div>
+                    <strong>Ático Latina</strong>
+                    <span>Reserva BK-2048</span>
+                  </div>
+                  <b>XML listo</b>
+                </article>
+                <article class="queue-item">
+                  <div>
+                    <strong>Loft Malasaña</strong>
+                    <span>2 huéspedes pendientes</span>
+                  </div>
+                  <b>Formulario enviado</b>
+                </article>
+                <article class="queue-item">
+                  <div>
+                    <strong>Casa Costa Brava</strong>
+                    <span>Check-in mañana</span>
+                  </div>
+                  <b>Falta DNI</b>
+                </article>
+              </div>
+
+              <div class="signal-grid">
+                <div>
+                  <span>Reservas activas</span>
+                  <strong>18</strong>
+                </div>
+                <div>
+                  <span>Datos completos</span>
+                  <strong>13</strong>
+                </div>
+                <div>
+                  <span>Para revisar</span>
+                  <strong>05</strong>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="problem-section" id="problema">
+          <div class="section-heading">
+            <p class="eyebrow">El problema real</p>
+            <h2>Lo que parece un trámite pequeño se convierte en ruido operativo constante.</h2>
+          </div>
+
+          <div class="problem-grid">
+            <article>
+              <h3>Mensajes repartidos</h3>
+              <p>
+                El equipo persigue datos por WhatsApp, email o llamadas, sin una
+                fuente única para cada reserva.
+              </p>
+            </article>
+            <article>
+              <h3>Datos incompletos</h3>
+              <p>
+                Faltan documentos, direcciones o acompañantes y el problema aparece
+                justo antes de la llegada.
+              </p>
+            </article>
+            <article>
+              <h3>Demasiado trabajo manual</h3>
+              <p>
+                La operación depende de copiar, revisar y volver a pedir lo mismo
+                una y otra vez.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="system-section" id="sistema">
+          <div class="section-heading compact">
+            <p class="eyebrow">El sistema</p>
+            <h2>Una secuencia simple para convertir un proceso frágil en uno repetible.</h2>
+          </div>
+
+          <div class="timeline">
+            <article>
+              <span>01</span>
+              <h3>Das de alta la reserva</h3>
+              <p>
+                El alojamiento, fechas y viajeros quedan vinculados desde el primer
+                momento.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Compartes un enlace único</h3>
+              <p>
+                El huésped completa la información sin depender de mensajes
+                desordenados ni pasos ambiguos.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Checkpol valida el estado</h3>
+              <p>
+                Ves qué está completo, qué falta y qué reservas necesitan acción
+                antes del check-in.
+              </p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Generas el XML</h3>
+              <p>
+                Cuando la información está lista, obtienes el archivo preparado
+                para el envío en el portal oficial.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="roles-section" id="roles">
+          <div class="section-heading">
+            <p class="eyebrow">Encaje comercial</p>
+            <h2>La propuesta cambia poco por perfil, pero el dolor operativo sí se reconoce al instante.</h2>
+          </div>
+
+          <div class="roles-layout">
+            <article class="role-card">
+              <h3>Anfitrión independiente</h3>
+              <p>
+                Si gestionas pocas viviendas, te da método sin tener que montar un
+                proceso manual cada semana.
+              </p>
+            </article>
+            <article class="role-card highlighted">
+              <h3>Property manager</h3>
+              <p>
+                Si mueves varias reservas a la vez, necesitas visibilidad por
+                estado y menos dependencia de recordatorios manuales.
+              </p>
+            </article>
+            <article class="role-card">
+              <h3>Operación remota</h3>
+              <p>
+                Si no hay recepción física, el flujo previo a la llegada tiene que
+                ser claro, repetible y fácil de supervisar.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="comparison-section">
+          <div class="comparison-card before">
+            <p class="eyebrow">Antes</p>
+            <ul>
+              <li>El registro depende de cada persona del equipo.</li>
+              <li>La información llega tarde y por varios canales.</li>
+              <li>Los errores aparecen cuando ya hay prisa.</li>
+            </ul>
+          </div>
+
+          <div class="comparison-card after">
+            <p class="eyebrow">Con Checkpol</p>
+            <ul>
+              <li>La reserva tiene un flujo común y visible.</li>
+              <li>El huésped recibe una acción clara.</li>
+              <li>El XML sale de un proceso mucho más ordenado.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="cta-section" id="cta">
+          <div class="cta-copy">
+            <p class="eyebrow">Cierre</p>
+            <h2>Si la versión 1 vende simplicidad, esta versión vende control.</h2>
+            <p>
+              Esta segunda landing está pensada para comparar un mensaje más
+              operativo, más orientado a gestión y más cercano a equipos que ya
+              sufren volumen o desorden.
+            </p>
+          </div>
+
+          <form class="lead-form">
+            <label>
+              Nombre
+              <input type="text" name="name" placeholder="Tu nombre" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="tu@email.com" />
+            </label>
+            <label>
+              Volumen aproximado
+              <input
+                type="text"
+                name="volume"
+                placeholder="5, 20 o 100 reservas al mes"
+              />
+            </label>
+            <button type="button" class="button button-primary button-full">
+              Solicitar demo
+            </button>
+            <p class="form-note">
+              Puedes conectar este formulario con el mismo flujo de captación que
+              uses en la primera versión.
+            </p>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
